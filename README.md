@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desafio conversor de moneda java bankend del curso de alura.
 
 ## Folder Structure
 
@@ -11,8 +11,8 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Esta app se conecta a la api proporcionada para el desafio, recibe el input del usuario y trae las conversiones seleccionadas
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Moneda base = tipo de moneda que se usara como base de la conversion
+Moneda de Destino = La moneda a la que se va a hacer la conversion
+Monto: Total en moneda base que se desea convertir
